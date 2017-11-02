@@ -1,0 +1,9 @@
+
+{"name":"kit-events",
+ "version":"0.5.0",
+ "scripts":{"compile":"sibilant ./src/index.sibilant -o ./"},
+ "dependencies":{
+     "kit-interface":"../kit-interface",
+     "kit":"../kit",
+     "ramda":"*",
+     "chokidar":"*"}}
