@@ -1,1 +1,1 @@
-(require! (lit Event-emitter) "./index")
+(require! (lit Event-emitter) "kit-events")
