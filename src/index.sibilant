@@ -3,8 +3,6 @@
 
 (import-namespace interface)
 (import-namespace kit)
-(macro def-curried (name args ...body)
-       `(loose-var @name (R.curry (lambda @args ...@body))))
 
 (require! 'events)
 
