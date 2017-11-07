@@ -1,6 +1,8 @@
+(include "kit/header")
 (include "kit-interface/header")
 
 (import-namespace interface)
+(import-namespace kit)
 
 (require! 'events)
 
