@@ -21,3 +21,5 @@
   (init (.call events.Event-emitter this)))
 
 (export Event-emitter)
+(export emit)
+(export bubble)

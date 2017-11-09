@@ -131,3 +131,5 @@ var EventEmitter = Interface.define("EventEmitter", {
   extend:events.EventEmitter.prototype
  });
 exports.EventEmitter = EventEmitter;
+exports.emit = emit;
+exports.bubble = bubble;
